@@ -1,0 +1,3 @@
+D:/Da/UCU/Year2/Semester2/ACS/Project/Part1/cmake-build-debug/CMakeFiles/Part1.dir
+D:/Da/UCU/Year2/Semester2/ACS/Project/Part1/cmake-build-debug/CMakeFiles/edit_cache.dir
+D:/Da/UCU/Year2/Semester2/ACS/Project/Part1/cmake-build-debug/CMakeFiles/rebuild_cache.dir
