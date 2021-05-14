@@ -43,10 +43,10 @@ RM = "D:\Da\Soft\CLion 2019.3\bin\cmake\win\bin\cmake.exe" -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = D:\Da\UCU\Year2\Semester2\ACS\Project\Part1
+CMAKE_SOURCE_DIR = D:\Da\UCU\Year2\Semester2\ACS\Project\Final\Windows-Posix-Cross-platform-Multithreading-Library
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = D:\Da\UCU\Year2\Semester2\ACS\Project\Part1\cmake-build-debug
+CMAKE_BINARY_DIR = D:\Da\UCU\Year2\Semester2\ACS\Project\Final\Windows-Posix-Cross-platform-Multithreading-Library\cmake-build-debug
 
 #=============================================================================
 # Directory level rules for the build root directory
@@ -73,14 +73,14 @@ preinstall:
 CMakeFiles/Part1.dir/all:
 	$(MAKE) -f CMakeFiles\Part1.dir\build.make CMakeFiles/Part1.dir/depend
 	$(MAKE) -f CMakeFiles\Part1.dir\build.make CMakeFiles/Part1.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=D:\Da\UCU\Year2\Semester2\ACS\Project\Part1\cmake-build-debug\CMakeFiles --progress-num=1,2 "Built target Part1"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=D:\Da\UCU\Year2\Semester2\ACS\Project\Final\Windows-Posix-Cross-platform-Multithreading-Library\cmake-build-debug\CMakeFiles --progress-num=1,2,3,4,5 "Built target Part1"
 .PHONY : CMakeFiles/Part1.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/Part1.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start D:\Da\UCU\Year2\Semester2\ACS\Project\Part1\cmake-build-debug\CMakeFiles 2
+	$(CMAKE_COMMAND) -E cmake_progress_start D:\Da\UCU\Year2\Semester2\ACS\Project\Final\Windows-Posix-Cross-platform-Multithreading-Library\cmake-build-debug\CMakeFiles 5
 	$(MAKE) -f CMakeFiles\Makefile2 CMakeFiles/Part1.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start D:\Da\UCU\Year2\Semester2\ACS\Project\Part1\cmake-build-debug\CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start D:\Da\UCU\Year2\Semester2\ACS\Project\Final\Windows-Posix-Cross-platform-Multithreading-Library\cmake-build-debug\CMakeFiles 0
 .PHONY : CMakeFiles/Part1.dir/rule
 
 # Convenience name for target.

@@ -3,4 +3,4 @@ project(Part1)
 
 set(CMAKE_CXX_STANDARD 14)
 
-add_executable(Part1 main.cpp)
+add_executable(Part1 main.cpp universalMutex.cpp universalMutex.h universalThread.cpp universalThread.h universalFunctions.cpp universalFunctions.h)

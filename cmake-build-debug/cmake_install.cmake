@@ -1,4 +1,4 @@
-# Install script for directory: D:/Da/UCU/Year2/Semester2/ACS/Project/Part1
+# Install script for directory: D:/Da/UCU/Year2/Semester2/ACS/Project/Final/Windows-Posix-Cross-platform-Multithreading-Library
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -40,5 +40,5 @@ endif()
 
 string(REPLACE ";" "\n" CMAKE_INSTALL_MANIFEST_CONTENT
        "${CMAKE_INSTALL_MANIFEST_FILES}")
-file(WRITE "D:/Da/UCU/Year2/Semester2/ACS/Project/Part1/cmake-build-debug/${CMAKE_INSTALL_MANIFEST}"
+file(WRITE "D:/Da/UCU/Year2/Semester2/ACS/Project/Final/Windows-Posix-Cross-platform-Multithreading-Library/cmake-build-debug/${CMAKE_INSTALL_MANIFEST}"
      "${CMAKE_INSTALL_MANIFEST_CONTENT}")

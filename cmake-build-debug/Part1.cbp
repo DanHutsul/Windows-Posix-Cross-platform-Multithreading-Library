@@ -8,18 +8,18 @@
 		<Option virtualFolders="CMake Files\;"/>
 		<Build>
 			<Target title="all">
-				<Option working_dir="D:/Da/UCU/Year2/Semester2/ACS/Project/Part1/cmake-build-debug"/>
+				<Option working_dir="D:/Da/UCU/Year2/Semester2/ACS/Project/Final/Windows-Posix-Cross-platform-Multithreading-Library/cmake-build-debug"/>
 				<Option type="4"/>
 				<MakeCommands>
-					<Build command="D:/Da/Soft/MSYS2/mingw64/bin/mingw32-make.exe -f &quot;D:/Da/UCU/Year2/Semester2/ACS/Project/Part1/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
-					<CompileFile command="D:/Da/Soft/MSYS2/mingw64/bin/mingw32-make.exe -f &quot;D:/Da/UCU/Year2/Semester2/ACS/Project/Part1/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="D:/Da/Soft/MSYS2/mingw64/bin/mingw32-make.exe -f &quot;D:/Da/UCU/Year2/Semester2/ACS/Project/Part1/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="D:/Da/Soft/MSYS2/mingw64/bin/mingw32-make.exe -f &quot;D:/Da/UCU/Year2/Semester2/ACS/Project/Part1/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="D:/Da/Soft/MSYS2/mingw64/bin/mingw32-make.exe -f &quot;D:/Da/UCU/Year2/Semester2/ACS/Project/Final/Windows-Posix-Cross-platform-Multithreading-Library/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="D:/Da/Soft/MSYS2/mingw64/bin/mingw32-make.exe -f &quot;D:/Da/UCU/Year2/Semester2/ACS/Project/Final/Windows-Posix-Cross-platform-Multithreading-Library/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="D:/Da/Soft/MSYS2/mingw64/bin/mingw32-make.exe -f &quot;D:/Da/UCU/Year2/Semester2/ACS/Project/Final/Windows-Posix-Cross-platform-Multithreading-Library/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="D:/Da/Soft/MSYS2/mingw64/bin/mingw32-make.exe -f &quot;D:/Da/UCU/Year2/Semester2/ACS/Project/Final/Windows-Posix-Cross-platform-Multithreading-Library/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="Part1">
-				<Option output="D:/Da/UCU/Year2/Semester2/ACS/Project/Part1/cmake-build-debug/Part1.exe" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="D:/Da/UCU/Year2/Semester2/ACS/Project/Part1/cmake-build-debug"/>
+				<Option output="D:/Da/UCU/Year2/Semester2/ACS/Project/Final/Windows-Posix-Cross-platform-Multithreading-Library/cmake-build-debug/Part1.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="D:/Da/UCU/Year2/Semester2/ACS/Project/Final/Windows-Posix-Cross-platform-Multithreading-Library/cmake-build-debug"/>
 				<Option object_output="./"/>
 				<Option type="1"/>
 				<Option compiler="gcc"/>
@@ -33,15 +33,15 @@
 					<Add directory="D:/Da/Soft/MSYS2/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/10.2.0/../../../../x86_64-w64-mingw32/include"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="D:/Da/Soft/MSYS2/mingw64/bin/mingw32-make.exe -f &quot;D:/Da/UCU/Year2/Semester2/ACS/Project/Part1/cmake-build-debug/Makefile&quot;  VERBOSE=1 Part1"/>
-					<CompileFile command="D:/Da/Soft/MSYS2/mingw64/bin/mingw32-make.exe -f &quot;D:/Da/UCU/Year2/Semester2/ACS/Project/Part1/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="D:/Da/Soft/MSYS2/mingw64/bin/mingw32-make.exe -f &quot;D:/Da/UCU/Year2/Semester2/ACS/Project/Part1/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="D:/Da/Soft/MSYS2/mingw64/bin/mingw32-make.exe -f &quot;D:/Da/UCU/Year2/Semester2/ACS/Project/Part1/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="D:/Da/Soft/MSYS2/mingw64/bin/mingw32-make.exe -f &quot;D:/Da/UCU/Year2/Semester2/ACS/Project/Final/Windows-Posix-Cross-platform-Multithreading-Library/cmake-build-debug/Makefile&quot;  VERBOSE=1 Part1"/>
+					<CompileFile command="D:/Da/Soft/MSYS2/mingw64/bin/mingw32-make.exe -f &quot;D:/Da/UCU/Year2/Semester2/ACS/Project/Final/Windows-Posix-Cross-platform-Multithreading-Library/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="D:/Da/Soft/MSYS2/mingw64/bin/mingw32-make.exe -f &quot;D:/Da/UCU/Year2/Semester2/ACS/Project/Final/Windows-Posix-Cross-platform-Multithreading-Library/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="D:/Da/Soft/MSYS2/mingw64/bin/mingw32-make.exe -f &quot;D:/Da/UCU/Year2/Semester2/ACS/Project/Final/Windows-Posix-Cross-platform-Multithreading-Library/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="Part1/fast">
-				<Option output="D:/Da/UCU/Year2/Semester2/ACS/Project/Part1/cmake-build-debug/Part1.exe" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="D:/Da/UCU/Year2/Semester2/ACS/Project/Part1/cmake-build-debug"/>
+				<Option output="D:/Da/UCU/Year2/Semester2/ACS/Project/Final/Windows-Posix-Cross-platform-Multithreading-Library/cmake-build-debug/Part1.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="D:/Da/UCU/Year2/Semester2/ACS/Project/Final/Windows-Posix-Cross-platform-Multithreading-Library/cmake-build-debug"/>
 				<Option object_output="./"/>
 				<Option type="1"/>
 				<Option compiler="gcc"/>
@@ -55,37 +55,55 @@
 					<Add directory="D:/Da/Soft/MSYS2/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/10.2.0/../../../../x86_64-w64-mingw32/include"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="D:/Da/Soft/MSYS2/mingw64/bin/mingw32-make.exe -f &quot;D:/Da/UCU/Year2/Semester2/ACS/Project/Part1/cmake-build-debug/Makefile&quot;  VERBOSE=1 Part1/fast"/>
-					<CompileFile command="D:/Da/Soft/MSYS2/mingw64/bin/mingw32-make.exe -f &quot;D:/Da/UCU/Year2/Semester2/ACS/Project/Part1/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="D:/Da/Soft/MSYS2/mingw64/bin/mingw32-make.exe -f &quot;D:/Da/UCU/Year2/Semester2/ACS/Project/Part1/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="D:/Da/Soft/MSYS2/mingw64/bin/mingw32-make.exe -f &quot;D:/Da/UCU/Year2/Semester2/ACS/Project/Part1/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="D:/Da/Soft/MSYS2/mingw64/bin/mingw32-make.exe -f &quot;D:/Da/UCU/Year2/Semester2/ACS/Project/Final/Windows-Posix-Cross-platform-Multithreading-Library/cmake-build-debug/Makefile&quot;  VERBOSE=1 Part1/fast"/>
+					<CompileFile command="D:/Da/Soft/MSYS2/mingw64/bin/mingw32-make.exe -f &quot;D:/Da/UCU/Year2/Semester2/ACS/Project/Final/Windows-Posix-Cross-platform-Multithreading-Library/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="D:/Da/Soft/MSYS2/mingw64/bin/mingw32-make.exe -f &quot;D:/Da/UCU/Year2/Semester2/ACS/Project/Final/Windows-Posix-Cross-platform-Multithreading-Library/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="D:/Da/Soft/MSYS2/mingw64/bin/mingw32-make.exe -f &quot;D:/Da/UCU/Year2/Semester2/ACS/Project/Final/Windows-Posix-Cross-platform-Multithreading-Library/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="edit_cache">
-				<Option working_dir="D:/Da/UCU/Year2/Semester2/ACS/Project/Part1/cmake-build-debug"/>
+				<Option working_dir="D:/Da/UCU/Year2/Semester2/ACS/Project/Final/Windows-Posix-Cross-platform-Multithreading-Library/cmake-build-debug"/>
 				<Option type="4"/>
 				<MakeCommands>
-					<Build command="D:/Da/Soft/MSYS2/mingw64/bin/mingw32-make.exe -f &quot;D:/Da/UCU/Year2/Semester2/ACS/Project/Part1/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
-					<CompileFile command="D:/Da/Soft/MSYS2/mingw64/bin/mingw32-make.exe -f &quot;D:/Da/UCU/Year2/Semester2/ACS/Project/Part1/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="D:/Da/Soft/MSYS2/mingw64/bin/mingw32-make.exe -f &quot;D:/Da/UCU/Year2/Semester2/ACS/Project/Part1/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="D:/Da/Soft/MSYS2/mingw64/bin/mingw32-make.exe -f &quot;D:/Da/UCU/Year2/Semester2/ACS/Project/Part1/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="D:/Da/Soft/MSYS2/mingw64/bin/mingw32-make.exe -f &quot;D:/Da/UCU/Year2/Semester2/ACS/Project/Final/Windows-Posix-Cross-platform-Multithreading-Library/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="D:/Da/Soft/MSYS2/mingw64/bin/mingw32-make.exe -f &quot;D:/Da/UCU/Year2/Semester2/ACS/Project/Final/Windows-Posix-Cross-platform-Multithreading-Library/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="D:/Da/Soft/MSYS2/mingw64/bin/mingw32-make.exe -f &quot;D:/Da/UCU/Year2/Semester2/ACS/Project/Final/Windows-Posix-Cross-platform-Multithreading-Library/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="D:/Da/Soft/MSYS2/mingw64/bin/mingw32-make.exe -f &quot;D:/Da/UCU/Year2/Semester2/ACS/Project/Final/Windows-Posix-Cross-platform-Multithreading-Library/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="rebuild_cache">
-				<Option working_dir="D:/Da/UCU/Year2/Semester2/ACS/Project/Part1/cmake-build-debug"/>
+				<Option working_dir="D:/Da/UCU/Year2/Semester2/ACS/Project/Final/Windows-Posix-Cross-platform-Multithreading-Library/cmake-build-debug"/>
 				<Option type="4"/>
 				<MakeCommands>
-					<Build command="D:/Da/Soft/MSYS2/mingw64/bin/mingw32-make.exe -f &quot;D:/Da/UCU/Year2/Semester2/ACS/Project/Part1/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
-					<CompileFile command="D:/Da/Soft/MSYS2/mingw64/bin/mingw32-make.exe -f &quot;D:/Da/UCU/Year2/Semester2/ACS/Project/Part1/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="D:/Da/Soft/MSYS2/mingw64/bin/mingw32-make.exe -f &quot;D:/Da/UCU/Year2/Semester2/ACS/Project/Part1/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="D:/Da/Soft/MSYS2/mingw64/bin/mingw32-make.exe -f &quot;D:/Da/UCU/Year2/Semester2/ACS/Project/Part1/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="D:/Da/Soft/MSYS2/mingw64/bin/mingw32-make.exe -f &quot;D:/Da/UCU/Year2/Semester2/ACS/Project/Final/Windows-Posix-Cross-platform-Multithreading-Library/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="D:/Da/Soft/MSYS2/mingw64/bin/mingw32-make.exe -f &quot;D:/Da/UCU/Year2/Semester2/ACS/Project/Final/Windows-Posix-Cross-platform-Multithreading-Library/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="D:/Da/Soft/MSYS2/mingw64/bin/mingw32-make.exe -f &quot;D:/Da/UCU/Year2/Semester2/ACS/Project/Final/Windows-Posix-Cross-platform-Multithreading-Library/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="D:/Da/Soft/MSYS2/mingw64/bin/mingw32-make.exe -f &quot;D:/Da/UCU/Year2/Semester2/ACS/Project/Final/Windows-Posix-Cross-platform-Multithreading-Library/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 		</Build>
-		<Unit filename="D:/Da/UCU/Year2/Semester2/ACS/Project/Part1/main.cpp">
+		<Unit filename="D:/Da/UCU/Year2/Semester2/ACS/Project/Final/Windows-Posix-Cross-platform-Multithreading-Library/main.cpp">
 			<Option target="Part1"/>
 		</Unit>
-		<Unit filename="D:/Da/UCU/Year2/Semester2/ACS/Project/Part1/CMakeLists.txt">
+		<Unit filename="D:/Da/UCU/Year2/Semester2/ACS/Project/Final/Windows-Posix-Cross-platform-Multithreading-Library/universalFunctions.cpp">
+			<Option target="Part1"/>
+		</Unit>
+		<Unit filename="D:/Da/UCU/Year2/Semester2/ACS/Project/Final/Windows-Posix-Cross-platform-Multithreading-Library/universalFunctions.h">
+			<Option target="Part1"/>
+		</Unit>
+		<Unit filename="D:/Da/UCU/Year2/Semester2/ACS/Project/Final/Windows-Posix-Cross-platform-Multithreading-Library/universalMutex.cpp">
+			<Option target="Part1"/>
+		</Unit>
+		<Unit filename="D:/Da/UCU/Year2/Semester2/ACS/Project/Final/Windows-Posix-Cross-platform-Multithreading-Library/universalMutex.h">
+			<Option target="Part1"/>
+		</Unit>
+		<Unit filename="D:/Da/UCU/Year2/Semester2/ACS/Project/Final/Windows-Posix-Cross-platform-Multithreading-Library/universalThread.cpp">
+			<Option target="Part1"/>
+		</Unit>
+		<Unit filename="D:/Da/UCU/Year2/Semester2/ACS/Project/Final/Windows-Posix-Cross-platform-Multithreading-Library/universalThread.h">
+			<Option target="Part1"/>
+		</Unit>
+		<Unit filename="D:/Da/UCU/Year2/Semester2/ACS/Project/Final/Windows-Posix-Cross-platform-Multithreading-Library/CMakeLists.txt">
 			<Option virtualFolder="CMake Files\"/>
 		</Unit>
 	</Project>

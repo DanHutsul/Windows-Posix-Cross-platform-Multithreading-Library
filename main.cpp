@@ -1,122 +1,126 @@
 #include <windows.h>
-#include <process.h>
 #include <stdio.h>
-#include <math.h>
-#include <pthread.h>
+#include "universalMutex.h"
+#include "universalFunctions.h"
+#include "universalThread.h"
+#include <unistd.h>
 
-class universalMutex {
-public:
+//unsigned long long int universalBeginThread(void (*pFunction)(void *), int i, int i1);
 
-    universalMutex(LPSECURITY_ATTRIBUTES lpMutexAttributes, BOOL bInitialOwner, LPCTSTR lpName) {
-#ifdef _WIN32
-        innerMutex = CreateMutex(lpMutexAttributes, bInitialOwner, lpName);
-#else
-        throw std::invalid_argument("Unsupported Operating System");
-#endif
-    }
+// Starting with this
+// So far the problem is that both function require different inputs
+// As such there is a mess of them in here
+// This function is required for creating a thread
 
-private:
-    HANDLE innerMutex;
-};
+// win returns handle
+// pthread returns
 
-unsigned long long int universalBeginThread(void *security,
-                                     unsigned stack_size,
-                                     unsigned ( *start_address )( void * ),
-                                     void *arglist,
-                                     unsigned initflag,
-                                     unsigned *thrdaddr) {
-#ifdef _WIN32 //This includes both 32bit and 64bit Windows
-    return _beginthreadex(security, stack_size, start_address, arglist, initflag, thrdaddr);
-#else
-    throw std::invalid_argument("Unsupported Operating System");
-#endif
-}
-DWORD universalWaitForSingleObject(HANDLE hHandle, DWORD  dwMilliseconds) {
-#ifdef _WIN32
-    return WaitForSingleObject(hHandle, dwMilliseconds);
-#else
-    throw std::invalid_argument("Unsupported Operating System");
-#endif
-}
+// After consideration _beginthreadex is better then
 
 
-HANDLE myCreateMutex(LPSECURITY_ATTRIBUTES lpMutexAttributes, BOOL bInitialOwner, LPCTSTR lpName) {
-#ifdef _WIN32
-    return new universalMutex(lpMutexAttributes, bInitialOwner, lpName);
-#else
-    throw std::invalid_argument("Unsupported Operating System");
-#endif
-}
+// Exiting threads
+// Windows.h threads are best left unexited
+//
 
-BOOL universalCloseHandle(HANDLE hObject) {
-#ifdef _WIN32
-    return CloseHandle(hObject);
-#elif _POSIX_VERSION
-    //The POSIX does not require explicit closure
-    pass;
-#else
-    throw std::invalid_argument("Unsupported Operating System");
-#endif
-}
 
-HANDLE universalSemaphore(LPSECURITY_ATTRIBUTES lpSemaphoreAttributes, LONG lInitialCount, LONG lMaximumCount, LPCSTR lpName) {
-#ifdef _WIN32
-    return CreateSemaphore(lpSemaphoreAttributes, lInitialCount, lMaximumCount, lpName);
-#else
-    throw std::invalid_argument("Unsupported Operating System");
-#endif
-}
+//WaitForSingleObject and pthread_join perform the same function
 
-BOOL universalReleaseSemaphore(HANDLE hSemaphore, LONG lReleaseCount, LPLONG lpPreviousCount) {
-#ifdef _WIN32
-    return ReleaseSemaphore(hSemaphore, lReleaseCount, lpPreviousCount);
-#else
-    throw std::invalid_argument("Unsupported Operating System");
-#endif
-}
-
-//For testing
-volatile int counter = 0;
-HANDLE mutex;
-
-int isPrime(int n)
+void *worker_thread_w(void *arg)
 {
-    for(int i = 2; i < (int)(sqrt((float)n) + 1.0) ; i++) {
-        if (n % i == 0) return 0;
-    }
-    return 1;
+    printf("worker_thread_w function\n");
+    return (void *)(arg);
 }
-unsigned int __stdcall mythread(void*)
+
+void *worker_thread_w2(void *arg)
 {
-    char* s;
-    while (counter < 25) {
-        WaitForSingleObject(mutex, INFINITE);
-        int number = counter++;
-        ReleaseMutex(mutex);
-        s = "No";
-        if(isPrime(number)) s = "Yes";
-        printf("Thread %d value = %d is prime = %s\n",
-               GetCurrentThreadId(), number, s);
+    printf("worker_thread_w2 function\n");
+    return (void *)(arg);
+}
+
+void *t_function(void *data)
+{
+    int num = *((int *)data);
+    printf("num %d\n", num);
+    return (void *)(num*num);
+}
+
+
+int counter;
+universalMutex lock;
+
+void* trythis(void* arg)
+{
+    lock.lock();
+
+    unsigned long i = 0;
+    counter += 1;
+    printf("\n Job %d has started and is counting to 10\n", counter);
+
+    for (int t = 1; t <= 10; t++) {
+        printf("Job %d counts %d\n", counter, t);
+        sleep(1);
     }
-    return 0;
+
+    printf("\n Job %d has finished\n", counter);
+
+    lock.unlock();
+
+    return NULL;
 }
 
 int main(int argc, char* argv[])
 {
-    HANDLE myhandleA, myhandleB;
+    universalThread myThread1, myThread2;
 
-    mutex = myCreateMutex(0, 0, 0);
+    int i = 0;
+    int error;
+    lock.initMutex();
 
-    myhandleA = (HANDLE)universalBeginThread(0, 0, &mythread, (void*)0, 0, 0);
-    myhandleB = (HANDLE)universalBeginThread(0, 0, &mythread, (void*)1, 0, 0);
+    myThread1.begin(&trythis);
+    myThread2.begin(&trythis);
+    /*myhandle = universalBeginThread(&trythis, 0, NULL, &(tid[0]));
+    myhandle2 = universalBeginThread(&trythis, 0, NULL, &(tid[1]));*/
 
-    universalWaitForSingleObject(myhandleA, INFINITE);
-    universalWaitForSingleObject(myhandleB, INFINITE);
-
-    universalCloseHandle(myhandleA);
-    universalCloseHandle(myhandleB);
-
-    universalCloseHandle(mutex);
-
+    myThread1.join();
+    myThread2.join();
+    /*universalJoin(myhandle, INFINITE, tid[0], NULL);
+    universalJoin(myhandle2, INFINITE, tid[1], NULL);*/
+    lock.destroy();
+    printf("DONE!");
+    universalExitThread(NULL);
     return 0;
 }
+
+
+
+
+
+
+
+
+
+
+/*HANDLE myhandle, myhandle2;
+    pthread_t tid[2];
+    int ret;
+    int ret2;*/
+
+//myhandle = universalBeginThread(worker_thread_w, 0, NULL, &my_thread);//(HANDLE)_beginthread(&mythreadC, 0, 0); // Windows
+//myhandle2 = universalBeginThread(worker_thread_w2, 0, NULL, &my_thread2);
+
+/*printf("Creating thread1\n");
+//pthread_create(&my_thread, NULL, worker_thread_w, NULL);
+myhandle = universalBeginThread(worker_thread_w, 0, NULL, &my_thread);
+printf("Creating thread2\n");
+//pthread_create(&my_thread2, NULL, worker_thread_w2, NULL);
+myhandle2 = universalBeginThread(worker_thread_w2, 0, NULL, &my_thread2);
+
+WaitForSingleObject(myhandle, INFINITE);// Tested, works fine
+//universalJoin(myhandle2, INFINITE, my_thread, NULL);
+//WaitForSingleObject(myhandle2, INFINITE);// Tested, works fine
+universalJoin(myhandle2, INFINITE, my_thread2, NULL);
+
+//pthread_join(my_thread, NULL);
+//pthread_join(my_thread2, NULL);
+std::cout << "done!\n";
+universalExitThread(NULL);//WaitForSingleObject((HANDLE)myhandleC, INFINITE); // Need this*/

@@ -42,10 +42,10 @@ RM = "D:\Da\Soft\CLion 2019.3\bin\cmake\win\bin\cmake.exe" -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = D:\Da\UCU\Year2\Semester2\ACS\Project\Part1
+CMAKE_SOURCE_DIR = D:\Da\UCU\Year2\Semester2\ACS\Project\Final\Windows-Posix-Cross-platform-Multithreading-Library
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = D:\Da\UCU\Year2\Semester2\ACS\Project\Part1\cmake-build-debug
+CMAKE_BINARY_DIR = D:\Da\UCU\Year2\Semester2\ACS\Project\Final\Windows-Posix-Cross-platform-Multithreading-Library\cmake-build-debug
 
 # Include any dependencies generated for this target.
 include CMakeFiles/Part1.dir/depend.make
@@ -58,30 +58,75 @@ include CMakeFiles/Part1.dir/flags.make
 
 CMakeFiles/Part1.dir/main.cpp.obj: CMakeFiles/Part1.dir/flags.make
 CMakeFiles/Part1.dir/main.cpp.obj: ../main.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\Da\UCU\Year2\Semester2\ACS\Project\Part1\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/Part1.dir/main.cpp.obj"
-	D:\Da\Soft\MSYS2\mingw64\bin\g++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\Part1.dir\main.cpp.obj -c D:\Da\UCU\Year2\Semester2\ACS\Project\Part1\main.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\Da\UCU\Year2\Semester2\ACS\Project\Final\Windows-Posix-Cross-platform-Multithreading-Library\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/Part1.dir/main.cpp.obj"
+	D:\Da\Soft\MSYS2\mingw64\bin\g++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\Part1.dir\main.cpp.obj -c D:\Da\UCU\Year2\Semester2\ACS\Project\Final\Windows-Posix-Cross-platform-Multithreading-Library\main.cpp
 
 CMakeFiles/Part1.dir/main.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Part1.dir/main.cpp.i"
-	D:\Da\Soft\MSYS2\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E D:\Da\UCU\Year2\Semester2\ACS\Project\Part1\main.cpp > CMakeFiles\Part1.dir\main.cpp.i
+	D:\Da\Soft\MSYS2\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E D:\Da\UCU\Year2\Semester2\ACS\Project\Final\Windows-Posix-Cross-platform-Multithreading-Library\main.cpp > CMakeFiles\Part1.dir\main.cpp.i
 
 CMakeFiles/Part1.dir/main.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Part1.dir/main.cpp.s"
-	D:\Da\Soft\MSYS2\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S D:\Da\UCU\Year2\Semester2\ACS\Project\Part1\main.cpp -o CMakeFiles\Part1.dir\main.cpp.s
+	D:\Da\Soft\MSYS2\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S D:\Da\UCU\Year2\Semester2\ACS\Project\Final\Windows-Posix-Cross-platform-Multithreading-Library\main.cpp -o CMakeFiles\Part1.dir\main.cpp.s
+
+CMakeFiles/Part1.dir/universalMutex.cpp.obj: CMakeFiles/Part1.dir/flags.make
+CMakeFiles/Part1.dir/universalMutex.cpp.obj: ../universalMutex.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\Da\UCU\Year2\Semester2\ACS\Project\Final\Windows-Posix-Cross-platform-Multithreading-Library\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/Part1.dir/universalMutex.cpp.obj"
+	D:\Da\Soft\MSYS2\mingw64\bin\g++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\Part1.dir\universalMutex.cpp.obj -c D:\Da\UCU\Year2\Semester2\ACS\Project\Final\Windows-Posix-Cross-platform-Multithreading-Library\universalMutex.cpp
+
+CMakeFiles/Part1.dir/universalMutex.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Part1.dir/universalMutex.cpp.i"
+	D:\Da\Soft\MSYS2\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E D:\Da\UCU\Year2\Semester2\ACS\Project\Final\Windows-Posix-Cross-platform-Multithreading-Library\universalMutex.cpp > CMakeFiles\Part1.dir\universalMutex.cpp.i
+
+CMakeFiles/Part1.dir/universalMutex.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Part1.dir/universalMutex.cpp.s"
+	D:\Da\Soft\MSYS2\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S D:\Da\UCU\Year2\Semester2\ACS\Project\Final\Windows-Posix-Cross-platform-Multithreading-Library\universalMutex.cpp -o CMakeFiles\Part1.dir\universalMutex.cpp.s
+
+CMakeFiles/Part1.dir/universalThread.cpp.obj: CMakeFiles/Part1.dir/flags.make
+CMakeFiles/Part1.dir/universalThread.cpp.obj: ../universalThread.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\Da\UCU\Year2\Semester2\ACS\Project\Final\Windows-Posix-Cross-platform-Multithreading-Library\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/Part1.dir/universalThread.cpp.obj"
+	D:\Da\Soft\MSYS2\mingw64\bin\g++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\Part1.dir\universalThread.cpp.obj -c D:\Da\UCU\Year2\Semester2\ACS\Project\Final\Windows-Posix-Cross-platform-Multithreading-Library\universalThread.cpp
+
+CMakeFiles/Part1.dir/universalThread.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Part1.dir/universalThread.cpp.i"
+	D:\Da\Soft\MSYS2\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E D:\Da\UCU\Year2\Semester2\ACS\Project\Final\Windows-Posix-Cross-platform-Multithreading-Library\universalThread.cpp > CMakeFiles\Part1.dir\universalThread.cpp.i
+
+CMakeFiles/Part1.dir/universalThread.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Part1.dir/universalThread.cpp.s"
+	D:\Da\Soft\MSYS2\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S D:\Da\UCU\Year2\Semester2\ACS\Project\Final\Windows-Posix-Cross-platform-Multithreading-Library\universalThread.cpp -o CMakeFiles\Part1.dir\universalThread.cpp.s
+
+CMakeFiles/Part1.dir/universalFunctions.cpp.obj: CMakeFiles/Part1.dir/flags.make
+CMakeFiles/Part1.dir/universalFunctions.cpp.obj: ../universalFunctions.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\Da\UCU\Year2\Semester2\ACS\Project\Final\Windows-Posix-Cross-platform-Multithreading-Library\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/Part1.dir/universalFunctions.cpp.obj"
+	D:\Da\Soft\MSYS2\mingw64\bin\g++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\Part1.dir\universalFunctions.cpp.obj -c D:\Da\UCU\Year2\Semester2\ACS\Project\Final\Windows-Posix-Cross-platform-Multithreading-Library\universalFunctions.cpp
+
+CMakeFiles/Part1.dir/universalFunctions.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Part1.dir/universalFunctions.cpp.i"
+	D:\Da\Soft\MSYS2\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E D:\Da\UCU\Year2\Semester2\ACS\Project\Final\Windows-Posix-Cross-platform-Multithreading-Library\universalFunctions.cpp > CMakeFiles\Part1.dir\universalFunctions.cpp.i
+
+CMakeFiles/Part1.dir/universalFunctions.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Part1.dir/universalFunctions.cpp.s"
+	D:\Da\Soft\MSYS2\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S D:\Da\UCU\Year2\Semester2\ACS\Project\Final\Windows-Posix-Cross-platform-Multithreading-Library\universalFunctions.cpp -o CMakeFiles\Part1.dir\universalFunctions.cpp.s
 
 # Object files for target Part1
 Part1_OBJECTS = \
-"CMakeFiles/Part1.dir/main.cpp.obj"
+"CMakeFiles/Part1.dir/main.cpp.obj" \
+"CMakeFiles/Part1.dir/universalMutex.cpp.obj" \
+"CMakeFiles/Part1.dir/universalThread.cpp.obj" \
+"CMakeFiles/Part1.dir/universalFunctions.cpp.obj"
 
 # External object files for target Part1
 Part1_EXTERNAL_OBJECTS =
 
 Part1.exe: CMakeFiles/Part1.dir/main.cpp.obj
+Part1.exe: CMakeFiles/Part1.dir/universalMutex.cpp.obj
+Part1.exe: CMakeFiles/Part1.dir/universalThread.cpp.obj
+Part1.exe: CMakeFiles/Part1.dir/universalFunctions.cpp.obj
 Part1.exe: CMakeFiles/Part1.dir/build.make
 Part1.exe: CMakeFiles/Part1.dir/linklibs.rsp
 Part1.exe: CMakeFiles/Part1.dir/objects1.rsp
 Part1.exe: CMakeFiles/Part1.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=D:\Da\UCU\Year2\Semester2\ACS\Project\Part1\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX executable Part1.exe"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=D:\Da\UCU\Year2\Semester2\ACS\Project\Final\Windows-Posix-Cross-platform-Multithreading-Library\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Linking CXX executable Part1.exe"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles\Part1.dir\link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
@@ -94,6 +139,6 @@ CMakeFiles/Part1.dir/clean:
 .PHONY : CMakeFiles/Part1.dir/clean
 
 CMakeFiles/Part1.dir/depend:
-	$(CMAKE_COMMAND) -E cmake_depends "MinGW Makefiles" D:\Da\UCU\Year2\Semester2\ACS\Project\Part1 D:\Da\UCU\Year2\Semester2\ACS\Project\Part1 D:\Da\UCU\Year2\Semester2\ACS\Project\Part1\cmake-build-debug D:\Da\UCU\Year2\Semester2\ACS\Project\Part1\cmake-build-debug D:\Da\UCU\Year2\Semester2\ACS\Project\Part1\cmake-build-debug\CMakeFiles\Part1.dir\DependInfo.cmake --color=$(COLOR)
+	$(CMAKE_COMMAND) -E cmake_depends "MinGW Makefiles" D:\Da\UCU\Year2\Semester2\ACS\Project\Final\Windows-Posix-Cross-platform-Multithreading-Library D:\Da\UCU\Year2\Semester2\ACS\Project\Final\Windows-Posix-Cross-platform-Multithreading-Library D:\Da\UCU\Year2\Semester2\ACS\Project\Final\Windows-Posix-Cross-platform-Multithreading-Library\cmake-build-debug D:\Da\UCU\Year2\Semester2\ACS\Project\Final\Windows-Posix-Cross-platform-Multithreading-Library\cmake-build-debug D:\Da\UCU\Year2\Semester2\ACS\Project\Final\Windows-Posix-Cross-platform-Multithreading-Library\cmake-build-debug\CMakeFiles\Part1.dir\DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/Part1.dir/depend
 

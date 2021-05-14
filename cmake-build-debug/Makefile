@@ -47,10 +47,10 @@ RM = "D:\Da\Soft\CLion 2019.3\bin\cmake\win\bin\cmake.exe" -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = D:\Da\UCU\Year2\Semester2\ACS\Project\Part1
+CMAKE_SOURCE_DIR = D:\Da\UCU\Year2\Semester2\ACS\Project\Final\Windows-Posix-Cross-platform-Multithreading-Library
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = D:\Da\UCU\Year2\Semester2\ACS\Project\Part1\cmake-build-debug
+CMAKE_BINARY_DIR = D:\Da\UCU\Year2\Semester2\ACS\Project\Final\Windows-Posix-Cross-platform-Multithreading-Library\cmake-build-debug
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -79,9 +79,9 @@ rebuild_cache/fast: rebuild_cache
 
 # The main all target
 all: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start D:\Da\UCU\Year2\Semester2\ACS\Project\Part1\cmake-build-debug\CMakeFiles D:\Da\UCU\Year2\Semester2\ACS\Project\Part1\cmake-build-debug\CMakeFiles\progress.marks
+	$(CMAKE_COMMAND) -E cmake_progress_start D:\Da\UCU\Year2\Semester2\ACS\Project\Final\Windows-Posix-Cross-platform-Multithreading-Library\cmake-build-debug\CMakeFiles D:\Da\UCU\Year2\Semester2\ACS\Project\Final\Windows-Posix-Cross-platform-Multithreading-Library\cmake-build-debug\CMakeFiles\progress.marks
 	$(MAKE) -f CMakeFiles\Makefile2 all
-	$(CMAKE_COMMAND) -E cmake_progress_start D:\Da\UCU\Year2\Semester2\ACS\Project\Part1\cmake-build-debug\CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start D:\Da\UCU\Year2\Semester2\ACS\Project\Final\Windows-Posix-Cross-platform-Multithreading-Library\cmake-build-debug\CMakeFiles 0
 .PHONY : all
 
 # The main clean target
@@ -149,6 +149,87 @@ main.cpp.s:
 	$(MAKE) -f CMakeFiles\Part1.dir\build.make CMakeFiles/Part1.dir/main.cpp.s
 .PHONY : main.cpp.s
 
+universalFunctions.obj: universalFunctions.cpp.obj
+
+.PHONY : universalFunctions.obj
+
+# target to build an object file
+universalFunctions.cpp.obj:
+	$(MAKE) -f CMakeFiles\Part1.dir\build.make CMakeFiles/Part1.dir/universalFunctions.cpp.obj
+.PHONY : universalFunctions.cpp.obj
+
+universalFunctions.i: universalFunctions.cpp.i
+
+.PHONY : universalFunctions.i
+
+# target to preprocess a source file
+universalFunctions.cpp.i:
+	$(MAKE) -f CMakeFiles\Part1.dir\build.make CMakeFiles/Part1.dir/universalFunctions.cpp.i
+.PHONY : universalFunctions.cpp.i
+
+universalFunctions.s: universalFunctions.cpp.s
+
+.PHONY : universalFunctions.s
+
+# target to generate assembly for a file
+universalFunctions.cpp.s:
+	$(MAKE) -f CMakeFiles\Part1.dir\build.make CMakeFiles/Part1.dir/universalFunctions.cpp.s
+.PHONY : universalFunctions.cpp.s
+
+universalMutex.obj: universalMutex.cpp.obj
+
+.PHONY : universalMutex.obj
+
+# target to build an object file
+universalMutex.cpp.obj:
+	$(MAKE) -f CMakeFiles\Part1.dir\build.make CMakeFiles/Part1.dir/universalMutex.cpp.obj
+.PHONY : universalMutex.cpp.obj
+
+universalMutex.i: universalMutex.cpp.i
+
+.PHONY : universalMutex.i
+
+# target to preprocess a source file
+universalMutex.cpp.i:
+	$(MAKE) -f CMakeFiles\Part1.dir\build.make CMakeFiles/Part1.dir/universalMutex.cpp.i
+.PHONY : universalMutex.cpp.i
+
+universalMutex.s: universalMutex.cpp.s
+
+.PHONY : universalMutex.s
+
+# target to generate assembly for a file
+universalMutex.cpp.s:
+	$(MAKE) -f CMakeFiles\Part1.dir\build.make CMakeFiles/Part1.dir/universalMutex.cpp.s
+.PHONY : universalMutex.cpp.s
+
+universalThread.obj: universalThread.cpp.obj
+
+.PHONY : universalThread.obj
+
+# target to build an object file
+universalThread.cpp.obj:
+	$(MAKE) -f CMakeFiles\Part1.dir\build.make CMakeFiles/Part1.dir/universalThread.cpp.obj
+.PHONY : universalThread.cpp.obj
+
+universalThread.i: universalThread.cpp.i
+
+.PHONY : universalThread.i
+
+# target to preprocess a source file
+universalThread.cpp.i:
+	$(MAKE) -f CMakeFiles\Part1.dir\build.make CMakeFiles/Part1.dir/universalThread.cpp.i
+.PHONY : universalThread.cpp.i
+
+universalThread.s: universalThread.cpp.s
+
+.PHONY : universalThread.s
+
+# target to generate assembly for a file
+universalThread.cpp.s:
+	$(MAKE) -f CMakeFiles\Part1.dir\build.make CMakeFiles/Part1.dir/universalThread.cpp.s
+.PHONY : universalThread.cpp.s
+
 # Help Target
 help:
 	@echo The following are some of the valid targets for this Makefile:
@@ -161,6 +242,15 @@ help:
 	@echo ... main.obj
 	@echo ... main.i
 	@echo ... main.s
+	@echo ... universalFunctions.obj
+	@echo ... universalFunctions.i
+	@echo ... universalFunctions.s
+	@echo ... universalMutex.obj
+	@echo ... universalMutex.i
+	@echo ... universalMutex.s
+	@echo ... universalThread.obj
+	@echo ... universalThread.i
+	@echo ... universalThread.s
 .PHONY : help
 
 
