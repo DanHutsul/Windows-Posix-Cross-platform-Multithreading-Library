@@ -21,6 +21,7 @@ public:
     int lock(DWORD dwMilliseconds = INFINITE);
     int unlock();
     int destroy();
+    pthread_mutex_t getPMutex();
 };
 
 

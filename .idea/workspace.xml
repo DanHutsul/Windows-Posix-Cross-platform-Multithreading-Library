@@ -13,22 +13,20 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="7ad8400a-514e-4440-b55c-9465ad8884e0" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/.name" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/universalMutex.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/universalMutex.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/universalThread.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/universalThread.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/universalAsync.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/universalAsync.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/universalBarrier.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/universalBarrier.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/universalCondition.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/universalCondition.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/universalFuture.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/universalFuture.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/universalPool.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/universalPool.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/universalSemaphore.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/universalSemaphore.h" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/CMakeLists.txt" beforeDir="false" afterPath="$PROJECT_DIR$/CMakeLists.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeCache.txt" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeCache.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/3.15.3/CMakeDetermineCompilerABI_C.bin" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/3.15.3/CMakeDetermineCompilerABI_C.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/3.15.3/CMakeDetermineCompilerABI_CXX.bin" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/3.15.3/CMakeDetermineCompilerABI_CXX.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/3.15.3/CompilerIdC/a.exe" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/3.15.3/CompilerIdC/a.exe" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/3.15.3/CompilerIdCXX/a.exe" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/3.15.3/CompilerIdCXX/a.exe" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/CMakeDirectoryInformation.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/CMakeDirectoryInformation.cmake" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/CMakeOutput.log" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/CMakeOutput.log" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Makefile.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Makefile.cmake" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Makefile2" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Makefile2" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Part1.dir/CXX.includecache" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Part1.dir/CXX.includecache" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Part1.dir/DependInfo.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Part1.dir/DependInfo.cmake" afterDir="false" />
@@ -36,18 +34,38 @@
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Part1.dir/cmake_clean.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Part1.dir/cmake_clean.cmake" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Part1.dir/depend.internal" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Part1.dir/depend.internal" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Part1.dir/depend.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Part1.dir/depend.make" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Part1.dir/main.cpp.obj" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Part1.dir/main.cpp.obj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Part1.dir/main.cpp.obj" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Part1.dir/objects.a" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Part1.dir/objects.a" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Part1.dir/objects1.rsp" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Part1.dir/objects1.rsp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Part1.dir/progress.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Part1.dir/progress.make" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/TargetDirectories.txt" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/TargetDirectories.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/clion-log.txt" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/clion-log.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Part1.dir/universalMutex.cpp.obj" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Part1.dir/universalMutex.cpp.obj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Part1.dir/universalThread.cpp.obj" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Part1.dir/universalThread.cpp.obj" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/progress.marks" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/progress.marks" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/Makefile" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/Makefile" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/Part1.cbp" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/Part1.cbp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/Part1.exe" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/Part1.exe" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/cmake_install.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/cmake_install.cmake" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/Part1.exe" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-release-cygwin/CMakeFiles/Makefile2" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-release-cygwin/CMakeFiles/Makefile2" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-release-cygwin/CMakeFiles/Part1.dir/CXX.includecache" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-release-cygwin/CMakeFiles/Part1.dir/CXX.includecache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-release-cygwin/CMakeFiles/Part1.dir/DependInfo.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-release-cygwin/CMakeFiles/Part1.dir/DependInfo.cmake" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-release-cygwin/CMakeFiles/Part1.dir/build.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-release-cygwin/CMakeFiles/Part1.dir/build.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-release-cygwin/CMakeFiles/Part1.dir/cmake_clean.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-release-cygwin/CMakeFiles/Part1.dir/cmake_clean.cmake" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-release-cygwin/CMakeFiles/Part1.dir/depend.internal" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-release-cygwin/CMakeFiles/Part1.dir/depend.internal" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-release-cygwin/CMakeFiles/Part1.dir/depend.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-release-cygwin/CMakeFiles/Part1.dir/depend.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-release-cygwin/CMakeFiles/Part1.dir/link.txt" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-release-cygwin/CMakeFiles/Part1.dir/link.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-release-cygwin/CMakeFiles/Part1.dir/main.cpp.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-release-cygwin/CMakeFiles/Part1.dir/progress.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-release-cygwin/CMakeFiles/Part1.dir/progress.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-release-cygwin/CMakeFiles/Part1.dir/universalMutex.cpp.o" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-release-cygwin/CMakeFiles/Part1.dir/universalMutex.cpp.o" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-release-cygwin/CMakeFiles/Part1.dir/universalThread.cpp.o" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-release-cygwin/CMakeFiles/Part1.dir/universalThread.cpp.o" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-release-cygwin/CMakeFiles/progress.marks" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-release-cygwin/CMakeFiles/progress.marks" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-release-cygwin/Makefile" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-release-cygwin/Makefile" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-release-cygwin/Part1.cbp" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-release-cygwin/Part1.cbp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-release-cygwin/Part1.exe" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-release-cygwin/Part1.exe" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-release-cygwin/Part1.exe.stackdump" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-release-cygwin/Part1.exe.stackdump" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/main.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/main.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/universalMutex.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/universalMutex.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/universalMutex.h" beforeDir="false" afterPath="$PROJECT_DIR$/universalMutex.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/universalThread.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/universalThread.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/universalThread.h" beforeDir="false" afterPath="$PROJECT_DIR$/universalThread.h" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -56,8 +74,9 @@
   </component>
   <component name="ClangdSettings">
     <option name="formatViaClangd" value="false" />
+    <option name="clangdEnabled" value="false" />
   </component>
-  <component name="ExecutionTargetManager" SELECTED_TARGET="CMakeBuildProfile:Debug" />
+  <component name="ExecutionTargetManager" SELECTED_TARGET="CMakeBuildProfile:Release-Cygwin" />
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
@@ -72,7 +91,7 @@
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
-    <property name="settings.editor.selected.configurable" value="CMakeSettings" />
+    <property name="settings.editor.selected.configurable" value="language.cpp.clangd" />
   </component>
   <component name="RunManager">
     <configuration name="Part1" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="Part1" TARGET_NAME="Part1" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="Part1" RUN_TARGET_NAME="Part1">
@@ -109,7 +128,23 @@
       <workItem from="1620998230519" duration="6308000" />
       <workItem from="1621008968389" duration="387000" />
       <workItem from="1621010754548" duration="10535000" />
-      <workItem from="1621027259761" duration="6364000" />
+      <workItem from="1621027259761" duration="7603000" />
+      <workItem from="1621082164557" duration="2493000" />
+      <workItem from="1621441948305" duration="344000" />
+      <workItem from="1622803851124" duration="1610000" />
+      <workItem from="1622889512166" duration="3967000" />
+      <workItem from="1622899793461" duration="599000" />
+      <workItem from="1622900458016" duration="6628000" />
+      <workItem from="1622966392244" duration="7945000" />
+      <workItem from="1623059319053" duration="5663000" />
+      <workItem from="1623075042559" duration="3322000" />
+      <workItem from="1623087033083" duration="4505000" />
+      <workItem from="1623140471426" duration="10030000" />
+      <workItem from="1623161807723" duration="7374000" />
+      <workItem from="1623257062847" duration="4624000" />
+      <workItem from="1623324428481" duration="20793000" />
+      <workItem from="1623402314125" duration="20003000" />
+      <workItem from="1623485844705" duration="6780000" />
     </task>
     <servers />
   </component>
@@ -117,26 +152,26 @@
     <option name="version" value="1" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="414" y="179" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1620816767437">
+    <state x="414" y="179" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1622979196392">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
-    <state x="414" y="179" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1920.1050@0.0.1920.1050" timestamp="1620816767437" />
-    <state width="1877" height="363" key="GridCell.Tab.0.bottom" timestamp="1621034291052">
+    <state x="414" y="179" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1920.1050@0.0.1920.1050" timestamp="1622979196392" />
+    <state width="1877" height="341" key="GridCell.Tab.0.bottom" timestamp="1623495232570">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
-    <state width="1877" height="363" key="GridCell.Tab.0.bottom/0.0.1920.1050@0.0.1920.1050" timestamp="1621034291052" />
-    <state width="1877" height="363" key="GridCell.Tab.0.center" timestamp="1621034291052">
+    <state width="1877" height="341" key="GridCell.Tab.0.bottom/0.0.1920.1050@0.0.1920.1050" timestamp="1623495232570" />
+    <state width="1877" height="341" key="GridCell.Tab.0.center" timestamp="1623495232570">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
-    <state width="1877" height="363" key="GridCell.Tab.0.center/0.0.1920.1050@0.0.1920.1050" timestamp="1621034291052" />
-    <state width="1877" height="363" key="GridCell.Tab.0.left" timestamp="1621034291052">
+    <state width="1877" height="341" key="GridCell.Tab.0.center/0.0.1920.1050@0.0.1920.1050" timestamp="1623495232570" />
+    <state width="1877" height="341" key="GridCell.Tab.0.left" timestamp="1623495232570">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
-    <state width="1877" height="363" key="GridCell.Tab.0.left/0.0.1920.1050@0.0.1920.1050" timestamp="1621034291052" />
-    <state width="1877" height="363" key="GridCell.Tab.0.right" timestamp="1621034291052">
+    <state width="1877" height="341" key="GridCell.Tab.0.left/0.0.1920.1050@0.0.1920.1050" timestamp="1623495232570" />
+    <state width="1877" height="341" key="GridCell.Tab.0.right" timestamp="1623495232570">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
-    <state width="1877" height="363" key="GridCell.Tab.0.right/0.0.1920.1050@0.0.1920.1050" timestamp="1621034291052" />
+    <state width="1877" height="341" key="GridCell.Tab.0.right/0.0.1920.1050@0.0.1920.1050" timestamp="1623495232570" />
     <state width="1877" height="352" key="GridCell.Tab.1.bottom" timestamp="1621023361629">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
@@ -153,18 +188,22 @@
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
     <state width="1877" height="352" key="GridCell.Tab.1.right/0.0.1920.1050@0.0.1920.1050" timestamp="1621023361629" />
-    <state x="461" y="167" key="SettingsEditor" timestamp="1620816876860">
+    <state x="461" y="167" key="SettingsEditor" timestamp="1622900403605">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
-    <state x="461" y="167" key="SettingsEditor/0.0.1920.1050@0.0.1920.1050" timestamp="1620816876860" />
+    <state x="461" y="167" key="SettingsEditor/0.0.1920.1050@0.0.1920.1050" timestamp="1622900403605" />
+    <state x="566" y="155" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser" timestamp="1623257533660">
+      <screen x="0" y="0" width="1920" height="1050" />
+    </state>
+    <state x="566" y="155" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser/0.0.1920.1050@0.0.1920.1050" timestamp="1623257533660" />
     <state x="685" y="167" key="refactoring.ChangeSignatureDialog" timestamp="1621025541004">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
     <state x="685" y="167" key="refactoring.ChangeSignatureDialog/0.0.1920.1050@0.0.1920.1050" timestamp="1621025541004" />
-    <state x="616" y="243" key="run.anything.popup" timestamp="1621000008135">
+    <state x="616" y="243" key="run.anything.popup" timestamp="1623419323355">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
-    <state x="616" y="243" key="run.anything.popup/0.0.1920.1050@0.0.1920.1050" timestamp="1621000008135" />
+    <state x="616" y="243" key="run.anything.popup/0.0.1920.1050@0.0.1920.1050" timestamp="1623419323355" />
     <state x="623" y="227" width="672" height="678" key="search.everywhere.popup" timestamp="1621033555032">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>

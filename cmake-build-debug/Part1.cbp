@@ -85,16 +85,52 @@
 		<Unit filename="D:/Da/UCU/Year2/Semester2/ACS/Project/Final/Windows-Posix-Cross-platform-Multithreading-Library/main.cpp">
 			<Option target="Part1"/>
 		</Unit>
+		<Unit filename="D:/Da/UCU/Year2/Semester2/ACS/Project/Final/Windows-Posix-Cross-platform-Multithreading-Library/universalAsync.cpp">
+			<Option target="Part1"/>
+		</Unit>
+		<Unit filename="D:/Da/UCU/Year2/Semester2/ACS/Project/Final/Windows-Posix-Cross-platform-Multithreading-Library/universalAsync.h">
+			<Option target="Part1"/>
+		</Unit>
+		<Unit filename="D:/Da/UCU/Year2/Semester2/ACS/Project/Final/Windows-Posix-Cross-platform-Multithreading-Library/universalBarrier.cpp">
+			<Option target="Part1"/>
+		</Unit>
+		<Unit filename="D:/Da/UCU/Year2/Semester2/ACS/Project/Final/Windows-Posix-Cross-platform-Multithreading-Library/universalBarrier.h">
+			<Option target="Part1"/>
+		</Unit>
+		<Unit filename="D:/Da/UCU/Year2/Semester2/ACS/Project/Final/Windows-Posix-Cross-platform-Multithreading-Library/universalCondition.cpp">
+			<Option target="Part1"/>
+		</Unit>
+		<Unit filename="D:/Da/UCU/Year2/Semester2/ACS/Project/Final/Windows-Posix-Cross-platform-Multithreading-Library/universalCondition.h">
+			<Option target="Part1"/>
+		</Unit>
 		<Unit filename="D:/Da/UCU/Year2/Semester2/ACS/Project/Final/Windows-Posix-Cross-platform-Multithreading-Library/universalFunctions.cpp">
 			<Option target="Part1"/>
 		</Unit>
 		<Unit filename="D:/Da/UCU/Year2/Semester2/ACS/Project/Final/Windows-Posix-Cross-platform-Multithreading-Library/universalFunctions.h">
 			<Option target="Part1"/>
 		</Unit>
+		<Unit filename="D:/Da/UCU/Year2/Semester2/ACS/Project/Final/Windows-Posix-Cross-platform-Multithreading-Library/universalFuture.cpp">
+			<Option target="Part1"/>
+		</Unit>
+		<Unit filename="D:/Da/UCU/Year2/Semester2/ACS/Project/Final/Windows-Posix-Cross-platform-Multithreading-Library/universalFuture.h">
+			<Option target="Part1"/>
+		</Unit>
 		<Unit filename="D:/Da/UCU/Year2/Semester2/ACS/Project/Final/Windows-Posix-Cross-platform-Multithreading-Library/universalMutex.cpp">
 			<Option target="Part1"/>
 		</Unit>
 		<Unit filename="D:/Da/UCU/Year2/Semester2/ACS/Project/Final/Windows-Posix-Cross-platform-Multithreading-Library/universalMutex.h">
+			<Option target="Part1"/>
+		</Unit>
+		<Unit filename="D:/Da/UCU/Year2/Semester2/ACS/Project/Final/Windows-Posix-Cross-platform-Multithreading-Library/universalPool.cpp">
+			<Option target="Part1"/>
+		</Unit>
+		<Unit filename="D:/Da/UCU/Year2/Semester2/ACS/Project/Final/Windows-Posix-Cross-platform-Multithreading-Library/universalPool.h">
+			<Option target="Part1"/>
+		</Unit>
+		<Unit filename="D:/Da/UCU/Year2/Semester2/ACS/Project/Final/Windows-Posix-Cross-platform-Multithreading-Library/universalSemaphore.cpp">
+			<Option target="Part1"/>
+		</Unit>
+		<Unit filename="D:/Da/UCU/Year2/Semester2/ACS/Project/Final/Windows-Posix-Cross-platform-Multithreading-Library/universalSemaphore.h">
 			<Option target="Part1"/>
 		</Unit>
 		<Unit filename="D:/Da/UCU/Year2/Semester2/ACS/Project/Final/Windows-Posix-Cross-platform-Multithreading-Library/universalThread.cpp">

@@ -42,3 +42,13 @@ int universalMutex::destroy() {
     throw std::invalid_argument("Unsupported Operating System");
 #endif
 }
+
+pthread_mutex_t universalMutex::getPMutex() {
+#ifdef _WIN32 //This includes both 32bit and 64bit Windows
+    //
+#elif __unix__
+    return pMutex;
+#else
+    throw std::invalid_argument("Unsupported Operating System");
+#endif
+}

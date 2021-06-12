@@ -150,6 +150,87 @@ main.cpp.s:
 	$(MAKE) -f CMakeFiles/Part1.dir/build.make CMakeFiles/Part1.dir/main.cpp.s
 .PHONY : main.cpp.s
 
+universalAsync.o: universalAsync.cpp.o
+
+.PHONY : universalAsync.o
+
+# target to build an object file
+universalAsync.cpp.o:
+	$(MAKE) -f CMakeFiles/Part1.dir/build.make CMakeFiles/Part1.dir/universalAsync.cpp.o
+.PHONY : universalAsync.cpp.o
+
+universalAsync.i: universalAsync.cpp.i
+
+.PHONY : universalAsync.i
+
+# target to preprocess a source file
+universalAsync.cpp.i:
+	$(MAKE) -f CMakeFiles/Part1.dir/build.make CMakeFiles/Part1.dir/universalAsync.cpp.i
+.PHONY : universalAsync.cpp.i
+
+universalAsync.s: universalAsync.cpp.s
+
+.PHONY : universalAsync.s
+
+# target to generate assembly for a file
+universalAsync.cpp.s:
+	$(MAKE) -f CMakeFiles/Part1.dir/build.make CMakeFiles/Part1.dir/universalAsync.cpp.s
+.PHONY : universalAsync.cpp.s
+
+universalBarrier.o: universalBarrier.cpp.o
+
+.PHONY : universalBarrier.o
+
+# target to build an object file
+universalBarrier.cpp.o:
+	$(MAKE) -f CMakeFiles/Part1.dir/build.make CMakeFiles/Part1.dir/universalBarrier.cpp.o
+.PHONY : universalBarrier.cpp.o
+
+universalBarrier.i: universalBarrier.cpp.i
+
+.PHONY : universalBarrier.i
+
+# target to preprocess a source file
+universalBarrier.cpp.i:
+	$(MAKE) -f CMakeFiles/Part1.dir/build.make CMakeFiles/Part1.dir/universalBarrier.cpp.i
+.PHONY : universalBarrier.cpp.i
+
+universalBarrier.s: universalBarrier.cpp.s
+
+.PHONY : universalBarrier.s
+
+# target to generate assembly for a file
+universalBarrier.cpp.s:
+	$(MAKE) -f CMakeFiles/Part1.dir/build.make CMakeFiles/Part1.dir/universalBarrier.cpp.s
+.PHONY : universalBarrier.cpp.s
+
+universalCondition.o: universalCondition.cpp.o
+
+.PHONY : universalCondition.o
+
+# target to build an object file
+universalCondition.cpp.o:
+	$(MAKE) -f CMakeFiles/Part1.dir/build.make CMakeFiles/Part1.dir/universalCondition.cpp.o
+.PHONY : universalCondition.cpp.o
+
+universalCondition.i: universalCondition.cpp.i
+
+.PHONY : universalCondition.i
+
+# target to preprocess a source file
+universalCondition.cpp.i:
+	$(MAKE) -f CMakeFiles/Part1.dir/build.make CMakeFiles/Part1.dir/universalCondition.cpp.i
+.PHONY : universalCondition.cpp.i
+
+universalCondition.s: universalCondition.cpp.s
+
+.PHONY : universalCondition.s
+
+# target to generate assembly for a file
+universalCondition.cpp.s:
+	$(MAKE) -f CMakeFiles/Part1.dir/build.make CMakeFiles/Part1.dir/universalCondition.cpp.s
+.PHONY : universalCondition.cpp.s
+
 universalFunctions.o: universalFunctions.cpp.o
 
 .PHONY : universalFunctions.o
@@ -177,6 +258,33 @@ universalFunctions.cpp.s:
 	$(MAKE) -f CMakeFiles/Part1.dir/build.make CMakeFiles/Part1.dir/universalFunctions.cpp.s
 .PHONY : universalFunctions.cpp.s
 
+universalFuture.o: universalFuture.cpp.o
+
+.PHONY : universalFuture.o
+
+# target to build an object file
+universalFuture.cpp.o:
+	$(MAKE) -f CMakeFiles/Part1.dir/build.make CMakeFiles/Part1.dir/universalFuture.cpp.o
+.PHONY : universalFuture.cpp.o
+
+universalFuture.i: universalFuture.cpp.i
+
+.PHONY : universalFuture.i
+
+# target to preprocess a source file
+universalFuture.cpp.i:
+	$(MAKE) -f CMakeFiles/Part1.dir/build.make CMakeFiles/Part1.dir/universalFuture.cpp.i
+.PHONY : universalFuture.cpp.i
+
+universalFuture.s: universalFuture.cpp.s
+
+.PHONY : universalFuture.s
+
+# target to generate assembly for a file
+universalFuture.cpp.s:
+	$(MAKE) -f CMakeFiles/Part1.dir/build.make CMakeFiles/Part1.dir/universalFuture.cpp.s
+.PHONY : universalFuture.cpp.s
+
 universalMutex.o: universalMutex.cpp.o
 
 .PHONY : universalMutex.o
@@ -203,6 +311,60 @@ universalMutex.s: universalMutex.cpp.s
 universalMutex.cpp.s:
 	$(MAKE) -f CMakeFiles/Part1.dir/build.make CMakeFiles/Part1.dir/universalMutex.cpp.s
 .PHONY : universalMutex.cpp.s
+
+universalPool.o: universalPool.cpp.o
+
+.PHONY : universalPool.o
+
+# target to build an object file
+universalPool.cpp.o:
+	$(MAKE) -f CMakeFiles/Part1.dir/build.make CMakeFiles/Part1.dir/universalPool.cpp.o
+.PHONY : universalPool.cpp.o
+
+universalPool.i: universalPool.cpp.i
+
+.PHONY : universalPool.i
+
+# target to preprocess a source file
+universalPool.cpp.i:
+	$(MAKE) -f CMakeFiles/Part1.dir/build.make CMakeFiles/Part1.dir/universalPool.cpp.i
+.PHONY : universalPool.cpp.i
+
+universalPool.s: universalPool.cpp.s
+
+.PHONY : universalPool.s
+
+# target to generate assembly for a file
+universalPool.cpp.s:
+	$(MAKE) -f CMakeFiles/Part1.dir/build.make CMakeFiles/Part1.dir/universalPool.cpp.s
+.PHONY : universalPool.cpp.s
+
+universalSemaphore.o: universalSemaphore.cpp.o
+
+.PHONY : universalSemaphore.o
+
+# target to build an object file
+universalSemaphore.cpp.o:
+	$(MAKE) -f CMakeFiles/Part1.dir/build.make CMakeFiles/Part1.dir/universalSemaphore.cpp.o
+.PHONY : universalSemaphore.cpp.o
+
+universalSemaphore.i: universalSemaphore.cpp.i
+
+.PHONY : universalSemaphore.i
+
+# target to preprocess a source file
+universalSemaphore.cpp.i:
+	$(MAKE) -f CMakeFiles/Part1.dir/build.make CMakeFiles/Part1.dir/universalSemaphore.cpp.i
+.PHONY : universalSemaphore.cpp.i
+
+universalSemaphore.s: universalSemaphore.cpp.s
+
+.PHONY : universalSemaphore.s
+
+# target to generate assembly for a file
+universalSemaphore.cpp.s:
+	$(MAKE) -f CMakeFiles/Part1.dir/build.make CMakeFiles/Part1.dir/universalSemaphore.cpp.s
+.PHONY : universalSemaphore.cpp.s
 
 universalThread.o: universalThread.cpp.o
 
@@ -243,12 +405,30 @@ help:
 	@echo "... main.o"
 	@echo "... main.i"
 	@echo "... main.s"
+	@echo "... universalAsync.o"
+	@echo "... universalAsync.i"
+	@echo "... universalAsync.s"
+	@echo "... universalBarrier.o"
+	@echo "... universalBarrier.i"
+	@echo "... universalBarrier.s"
+	@echo "... universalCondition.o"
+	@echo "... universalCondition.i"
+	@echo "... universalCondition.s"
 	@echo "... universalFunctions.o"
 	@echo "... universalFunctions.i"
 	@echo "... universalFunctions.s"
+	@echo "... universalFuture.o"
+	@echo "... universalFuture.i"
+	@echo "... universalFuture.s"
 	@echo "... universalMutex.o"
 	@echo "... universalMutex.i"
 	@echo "... universalMutex.s"
+	@echo "... universalPool.o"
+	@echo "... universalPool.i"
+	@echo "... universalPool.s"
+	@echo "... universalSemaphore.o"
+	@echo "... universalSemaphore.i"
+	@echo "... universalSemaphore.s"
 	@echo "... universalThread.o"
 	@echo "... universalThread.i"
 	@echo "... universalThread.s"

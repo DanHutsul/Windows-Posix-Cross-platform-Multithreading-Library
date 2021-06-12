@@ -109,12 +109,96 @@ CMakeFiles/Part1.dir/universalFunctions.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Part1.dir/universalFunctions.cpp.s"
 	/usr/bin/c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /cygdrive/d/Da/UCU/Year2/Semester2/ACS/Project/Final/Windows-Posix-Cross-platform-Multithreading-Library/universalFunctions.cpp -o CMakeFiles/Part1.dir/universalFunctions.cpp.s
 
+CMakeFiles/Part1.dir/universalBarrier.cpp.o: CMakeFiles/Part1.dir/flags.make
+CMakeFiles/Part1.dir/universalBarrier.cpp.o: ../universalBarrier.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/cygdrive/d/Da/UCU/Year2/Semester2/ACS/Project/Final/Windows-Posix-Cross-platform-Multithreading-Library/cmake-build-release-cygwin/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/Part1.dir/universalBarrier.cpp.o"
+	/usr/bin/c++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Part1.dir/universalBarrier.cpp.o -c /cygdrive/d/Da/UCU/Year2/Semester2/ACS/Project/Final/Windows-Posix-Cross-platform-Multithreading-Library/universalBarrier.cpp
+
+CMakeFiles/Part1.dir/universalBarrier.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Part1.dir/universalBarrier.cpp.i"
+	/usr/bin/c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /cygdrive/d/Da/UCU/Year2/Semester2/ACS/Project/Final/Windows-Posix-Cross-platform-Multithreading-Library/universalBarrier.cpp > CMakeFiles/Part1.dir/universalBarrier.cpp.i
+
+CMakeFiles/Part1.dir/universalBarrier.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Part1.dir/universalBarrier.cpp.s"
+	/usr/bin/c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /cygdrive/d/Da/UCU/Year2/Semester2/ACS/Project/Final/Windows-Posix-Cross-platform-Multithreading-Library/universalBarrier.cpp -o CMakeFiles/Part1.dir/universalBarrier.cpp.s
+
+CMakeFiles/Part1.dir/universalSemaphore.cpp.o: CMakeFiles/Part1.dir/flags.make
+CMakeFiles/Part1.dir/universalSemaphore.cpp.o: ../universalSemaphore.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/cygdrive/d/Da/UCU/Year2/Semester2/ACS/Project/Final/Windows-Posix-Cross-platform-Multithreading-Library/cmake-build-release-cygwin/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object CMakeFiles/Part1.dir/universalSemaphore.cpp.o"
+	/usr/bin/c++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Part1.dir/universalSemaphore.cpp.o -c /cygdrive/d/Da/UCU/Year2/Semester2/ACS/Project/Final/Windows-Posix-Cross-platform-Multithreading-Library/universalSemaphore.cpp
+
+CMakeFiles/Part1.dir/universalSemaphore.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Part1.dir/universalSemaphore.cpp.i"
+	/usr/bin/c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /cygdrive/d/Da/UCU/Year2/Semester2/ACS/Project/Final/Windows-Posix-Cross-platform-Multithreading-Library/universalSemaphore.cpp > CMakeFiles/Part1.dir/universalSemaphore.cpp.i
+
+CMakeFiles/Part1.dir/universalSemaphore.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Part1.dir/universalSemaphore.cpp.s"
+	/usr/bin/c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /cygdrive/d/Da/UCU/Year2/Semester2/ACS/Project/Final/Windows-Posix-Cross-platform-Multithreading-Library/universalSemaphore.cpp -o CMakeFiles/Part1.dir/universalSemaphore.cpp.s
+
+CMakeFiles/Part1.dir/universalPool.cpp.o: CMakeFiles/Part1.dir/flags.make
+CMakeFiles/Part1.dir/universalPool.cpp.o: ../universalPool.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/cygdrive/d/Da/UCU/Year2/Semester2/ACS/Project/Final/Windows-Posix-Cross-platform-Multithreading-Library/cmake-build-release-cygwin/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object CMakeFiles/Part1.dir/universalPool.cpp.o"
+	/usr/bin/c++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Part1.dir/universalPool.cpp.o -c /cygdrive/d/Da/UCU/Year2/Semester2/ACS/Project/Final/Windows-Posix-Cross-platform-Multithreading-Library/universalPool.cpp
+
+CMakeFiles/Part1.dir/universalPool.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Part1.dir/universalPool.cpp.i"
+	/usr/bin/c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /cygdrive/d/Da/UCU/Year2/Semester2/ACS/Project/Final/Windows-Posix-Cross-platform-Multithreading-Library/universalPool.cpp > CMakeFiles/Part1.dir/universalPool.cpp.i
+
+CMakeFiles/Part1.dir/universalPool.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Part1.dir/universalPool.cpp.s"
+	/usr/bin/c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /cygdrive/d/Da/UCU/Year2/Semester2/ACS/Project/Final/Windows-Posix-Cross-platform-Multithreading-Library/universalPool.cpp -o CMakeFiles/Part1.dir/universalPool.cpp.s
+
+CMakeFiles/Part1.dir/universalCondition.cpp.o: CMakeFiles/Part1.dir/flags.make
+CMakeFiles/Part1.dir/universalCondition.cpp.o: ../universalCondition.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/cygdrive/d/Da/UCU/Year2/Semester2/ACS/Project/Final/Windows-Posix-Cross-platform-Multithreading-Library/cmake-build-release-cygwin/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building CXX object CMakeFiles/Part1.dir/universalCondition.cpp.o"
+	/usr/bin/c++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Part1.dir/universalCondition.cpp.o -c /cygdrive/d/Da/UCU/Year2/Semester2/ACS/Project/Final/Windows-Posix-Cross-platform-Multithreading-Library/universalCondition.cpp
+
+CMakeFiles/Part1.dir/universalCondition.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Part1.dir/universalCondition.cpp.i"
+	/usr/bin/c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /cygdrive/d/Da/UCU/Year2/Semester2/ACS/Project/Final/Windows-Posix-Cross-platform-Multithreading-Library/universalCondition.cpp > CMakeFiles/Part1.dir/universalCondition.cpp.i
+
+CMakeFiles/Part1.dir/universalCondition.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Part1.dir/universalCondition.cpp.s"
+	/usr/bin/c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /cygdrive/d/Da/UCU/Year2/Semester2/ACS/Project/Final/Windows-Posix-Cross-platform-Multithreading-Library/universalCondition.cpp -o CMakeFiles/Part1.dir/universalCondition.cpp.s
+
+CMakeFiles/Part1.dir/universalAsync.cpp.o: CMakeFiles/Part1.dir/flags.make
+CMakeFiles/Part1.dir/universalAsync.cpp.o: ../universalAsync.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/cygdrive/d/Da/UCU/Year2/Semester2/ACS/Project/Final/Windows-Posix-Cross-platform-Multithreading-Library/cmake-build-release-cygwin/CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Building CXX object CMakeFiles/Part1.dir/universalAsync.cpp.o"
+	/usr/bin/c++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Part1.dir/universalAsync.cpp.o -c /cygdrive/d/Da/UCU/Year2/Semester2/ACS/Project/Final/Windows-Posix-Cross-platform-Multithreading-Library/universalAsync.cpp
+
+CMakeFiles/Part1.dir/universalAsync.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Part1.dir/universalAsync.cpp.i"
+	/usr/bin/c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /cygdrive/d/Da/UCU/Year2/Semester2/ACS/Project/Final/Windows-Posix-Cross-platform-Multithreading-Library/universalAsync.cpp > CMakeFiles/Part1.dir/universalAsync.cpp.i
+
+CMakeFiles/Part1.dir/universalAsync.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Part1.dir/universalAsync.cpp.s"
+	/usr/bin/c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /cygdrive/d/Da/UCU/Year2/Semester2/ACS/Project/Final/Windows-Posix-Cross-platform-Multithreading-Library/universalAsync.cpp -o CMakeFiles/Part1.dir/universalAsync.cpp.s
+
+CMakeFiles/Part1.dir/universalFuture.cpp.o: CMakeFiles/Part1.dir/flags.make
+CMakeFiles/Part1.dir/universalFuture.cpp.o: ../universalFuture.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/cygdrive/d/Da/UCU/Year2/Semester2/ACS/Project/Final/Windows-Posix-Cross-platform-Multithreading-Library/cmake-build-release-cygwin/CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Building CXX object CMakeFiles/Part1.dir/universalFuture.cpp.o"
+	/usr/bin/c++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Part1.dir/universalFuture.cpp.o -c /cygdrive/d/Da/UCU/Year2/Semester2/ACS/Project/Final/Windows-Posix-Cross-platform-Multithreading-Library/universalFuture.cpp
+
+CMakeFiles/Part1.dir/universalFuture.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Part1.dir/universalFuture.cpp.i"
+	/usr/bin/c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /cygdrive/d/Da/UCU/Year2/Semester2/ACS/Project/Final/Windows-Posix-Cross-platform-Multithreading-Library/universalFuture.cpp > CMakeFiles/Part1.dir/universalFuture.cpp.i
+
+CMakeFiles/Part1.dir/universalFuture.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Part1.dir/universalFuture.cpp.s"
+	/usr/bin/c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /cygdrive/d/Da/UCU/Year2/Semester2/ACS/Project/Final/Windows-Posix-Cross-platform-Multithreading-Library/universalFuture.cpp -o CMakeFiles/Part1.dir/universalFuture.cpp.s
+
 # Object files for target Part1
 Part1_OBJECTS = \
 "CMakeFiles/Part1.dir/main.cpp.o" \
 "CMakeFiles/Part1.dir/universalMutex.cpp.o" \
 "CMakeFiles/Part1.dir/universalThread.cpp.o" \
-"CMakeFiles/Part1.dir/universalFunctions.cpp.o"
+"CMakeFiles/Part1.dir/universalFunctions.cpp.o" \
+"CMakeFiles/Part1.dir/universalBarrier.cpp.o" \
+"CMakeFiles/Part1.dir/universalSemaphore.cpp.o" \
+"CMakeFiles/Part1.dir/universalPool.cpp.o" \
+"CMakeFiles/Part1.dir/universalCondition.cpp.o" \
+"CMakeFiles/Part1.dir/universalAsync.cpp.o" \
+"CMakeFiles/Part1.dir/universalFuture.cpp.o"
 
 # External object files for target Part1
 Part1_EXTERNAL_OBJECTS =
@@ -123,9 +207,15 @@ Part1.exe: CMakeFiles/Part1.dir/main.cpp.o
 Part1.exe: CMakeFiles/Part1.dir/universalMutex.cpp.o
 Part1.exe: CMakeFiles/Part1.dir/universalThread.cpp.o
 Part1.exe: CMakeFiles/Part1.dir/universalFunctions.cpp.o
+Part1.exe: CMakeFiles/Part1.dir/universalBarrier.cpp.o
+Part1.exe: CMakeFiles/Part1.dir/universalSemaphore.cpp.o
+Part1.exe: CMakeFiles/Part1.dir/universalPool.cpp.o
+Part1.exe: CMakeFiles/Part1.dir/universalCondition.cpp.o
+Part1.exe: CMakeFiles/Part1.dir/universalAsync.cpp.o
+Part1.exe: CMakeFiles/Part1.dir/universalFuture.cpp.o
 Part1.exe: CMakeFiles/Part1.dir/build.make
 Part1.exe: CMakeFiles/Part1.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/cygdrive/d/Da/UCU/Year2/Semester2/ACS/Project/Final/Windows-Posix-Cross-platform-Multithreading-Library/cmake-build-release-cygwin/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Linking CXX executable Part1.exe"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/cygdrive/d/Da/UCU/Year2/Semester2/ACS/Project/Final/Windows-Posix-Cross-platform-Multithreading-Library/cmake-build-release-cygwin/CMakeFiles --progress-num=$(CMAKE_PROGRESS_11) "Linking CXX executable Part1.exe"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/Part1.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
